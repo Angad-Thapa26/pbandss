@@ -59,7 +59,7 @@ const About: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           <div className="bg-white rounded-lg shadow-md p-4 text-center">
             <img
-              src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&auto=format&fit=crop&w=300&q=80"
+              src="https://scontent.fktm21-2.fna.fbcdn.net/v/t39.30808-1/345583253_956702718685851_8257316030479311428_n.jpg?stp=dst-jpg_s200x200&_nc_cat=107&ccb=1-7&_nc_sid=0ecb9b&_nc_ohc=DYLjDurLxIEQ7kNvgGmmxHE&_nc_zt=24&_nc_ht=scontent.fktm21-2.fna&_nc_gid=AgA3WzGONX_tZ5UEN9n7Md7&oh=00_AYCYEUNOHoio8ksqtgrb9YC5vm7RXJJaXB5kxVRY7eB6qw&oe=671C1B37"
               alt="Pratap"
               className="w-32 h-32 rounded-full mx-auto mb-4 object-cover"
             />
@@ -68,7 +68,7 @@ const About: React.FC = () => {
           </div>
           <div className="bg-white rounded-lg shadow-md p-4 text-center">
             <img
-              src="https://scontent.fktm21-2.fna.fbcdn.net/v/t39.30808-1/345583253_956702718685851_8257316030479311428_n.jpg?stp=dst-jpg_s200x200&_nc_cat=107&ccb=1-7&_nc_sid=0ecb9b&_nc_ohc=DYLjDurLxIEQ7kNvgGmmxHE&_nc_zt=24&_nc_ht=scontent.fktm21-2.fna&_nc_gid=AgA3WzGONX_tZ5UEN9n7Md7&oh=00_AYCYEUNOHoio8ksqtgrb9YC5vm7RXJJaXB5kxVRY7eB6qw&oe=671C1B37"
+              src="https://scontent.fktm21-1.fna.fbcdn.net/v/t1.6435-9/122871877_364344134782417_2792496364266094264_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=a5f93a&_nc_ohc=dIqSMJ9xyFkQ7kNvgEN9A5N&_nc_zt=23&_nc_ht=scontent.fktm21-1.fna&_nc_gid=AMHHFUiS4FrpLUXyusPD4EV&oh=00_AYCE-O5l57Ordy-RrFZnZeDlcDqdQIP1bbuhM6z1uPYJkg&oe=673DB2D3"
               alt="bimala"
               className="w-32 h-32 rounded-full mx-auto mb-4 object-cover"
             />
