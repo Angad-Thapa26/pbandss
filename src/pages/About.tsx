@@ -68,7 +68,7 @@ const About: React.FC = () => {
           </div>
           <div className="bg-white rounded-lg shadow-md p-4 text-center">
             <img
-              src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&auto=format&fit=crop&w=300&q=80"
+              src="https://scontent.fktm21-2.fna.fbcdn.net/v/t39.30808-1/345583253_956702718685851_8257316030479311428_n.jpg?stp=dst-jpg_s200x200&_nc_cat=107&ccb=1-7&_nc_sid=0ecb9b&_nc_ohc=DYLjDurLxIEQ7kNvgGmmxHE&_nc_zt=24&_nc_ht=scontent.fktm21-2.fna&_nc_gid=AgA3WzGONX_tZ5UEN9n7Md7&oh=00_AYCYEUNOHoio8ksqtgrb9YC5vm7RXJJaXB5kxVRY7eB6qw&oe=671C1B37"
               alt="bimala"
               className="w-32 h-32 rounded-full mx-auto mb-4 object-cover"
             />
@@ -82,7 +82,7 @@ const About: React.FC = () => {
               className="w-32 h-32 rounded-full mx-auto mb-4 object-cover"
             />
             <h3 className="text-lg font-semibold">Bilakshyan Adhikari</h3>
-            <p className="text-gray-600">keeper</p>
+            <p className="text-gray-600">Executive</p>
           </div>
         </div>
       </section>
