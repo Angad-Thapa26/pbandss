@@ -65,7 +65,7 @@ const Home: React.FC<HomeProps> = ({ setCurrentPage }) => {
 
       <div className="relative z-10 container mx-auto px-4 py-12 text-white">
         <h1 className="text-5xl font-bold mb-6 animate-fade-in">
-          Welcome to Pratap Book and Stationary
+          Welcome to Pratap Book and Stationery
         </h1>
         <p className="text-xl mb-8 animate-slide-in">
           Your one-stop shop for all your book and stationery needs in Byas 2,
