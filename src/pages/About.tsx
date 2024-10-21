@@ -77,7 +77,7 @@ const About: React.FC = () => {
           </div>
           <div className="bg-white rounded-lg shadow-md p-4 text-center">
             <img
-              src="https://scontent.fktm21-2.fna.fbcdn.net/v/t39.30808-6/443840459_925277519346024_2487850506978589770_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeFpqWIA85lKWbXR5eQxa1GD-J35frL8J4f4nfl-svwnh7RFl-tK1zYvfE6xEl9Kua7lUwqVTEffKTqXhdnmqqK7&_nc_ohc=1VrVyVlQLhsQ7kNvgHswSAh&_nc_zt=23&_nc_ht=scontent.fktm21-2.fna&_nc_gid=AjLrq_45O4I87HdzK2yISPY&oh=00_AYAZ-XGt56BJNuuMLaa58P8FT2kB_NwsOijPcgNAFhSA6w&oe=6717D9E5"
+              src="https://scontent.fktm21-2.fna.fbcdn.net/v/t39.30808-6/463037994_538849352072686_7190897010657431502_n.jpg?stp=cp6_dst-jpg&_nc_cat=103&ccb=1-7&_nc_sid=833d8c&_nc_ohc=kix4R60KbHkQ7kNvgH0GReS&_nc_zt=23&_nc_ht=scontent.fktm21-2.fna&_nc_gid=ADOjbP9BRJLxYi5KOQrgfdm&oh=00_AYDwO9yTl_bGc28t3RSfpG10wua3kciuuYrn5M4xW-b-dQ&oe=671C3195"
               alt="bilakshya"
               className="w-32 h-32 rounded-full mx-auto mb-4 object-cover"
             />
