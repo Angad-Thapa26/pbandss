@@ -93,7 +93,7 @@ const Home: React.FC<HomeProps> = ({ setCurrentPage }) => {
           >
             <Printer className="text-yellow-400 w-12 h-12 mb-4" />
             <h2 className="text-2xl font-semibold mb-2">Printing Services</h2>
-            <p>High-quality printing services for documents and photos.</p>
+            <p>High-quality printing services for documents and  photos.</p>
           </div>
         </div>
         <div className="mb-12">
