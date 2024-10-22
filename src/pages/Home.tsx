@@ -1,6 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import { Book, Pencil, Printer, Search, Mail, Star, Bell } from 'lucide-react';
 import { Notice } from '../types';
+import font-face {
+    font-family: 'nepali';
+    src: url('everest.TTF');
 
 interface HomeProps {
   setCurrentPage: (page: string) => void;
@@ -60,6 +63,7 @@ const Home: React.FC<HomeProps> = ({ setCurrentPage }) => {
           backgroundImage:
             "url('https://images.unsplash.com/photo-1507842217343-583bb7270b66?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80')",
           filter: 'brightness(0.3)',
+          <p><a style="font-size: 20px; font-family: nepali'';">बलनबम </a></p> 
         }}
       ></div>
 
