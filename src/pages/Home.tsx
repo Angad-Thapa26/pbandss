@@ -30,8 +30,7 @@ const Home: React.FC<HomeProps> = ({ setCurrentPage }) => {
           id: 1,
           title: 'NOTICE',
           content: 'We are thriled to introduce our website to you all we shall be providing any new information through here ,Buying product through this website is yet not integrated we request you all to visit us in our store any further notice will be delivered here after
-            
-सबैलाई हार्दिक स्वागत छ',
+            सबैलाई हार्दिक स्वागत छ',
           date: '2024-06-01',
         },
       ];
@@ -95,7 +94,7 @@ const Home: React.FC<HomeProps> = ({ setCurrentPage }) => {
           >
             <Printer className="text-yellow-400 w-12 h-12 mb-4" />
             <h2 className="text-2xl font-semibold mb-2">Printing Services</h2>
-            <p>High-quality printing services for documents and  photos.</p>
+            <p>High-quality printing services for documents and photos at a go.</p>
           </div>
         </div>
         <div className="mb-12">
