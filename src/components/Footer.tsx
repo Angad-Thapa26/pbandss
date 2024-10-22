@@ -98,8 +98,8 @@ const Footer: React.FC<FooterProps> = ({ setCurrentPage }) => {
         </div>
         <div className="mt-8 text-center text-sm">
           <p>&copy; 2024 Pratap Book and Stationery. All rights reserved.</p>
-          <p>Made by mAkuraZ ,a company that builds webs</p>
-          <p>testing edit modul //angad thapa//thişto be removed in final deploy//this deploy is not a final deploy</p>
+          <p>Made by mAkuraZ ,a team that builds webs of connection⚡</p>
+         
         </div>
       </div>
     </footer>
