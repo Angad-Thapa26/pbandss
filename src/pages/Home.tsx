@@ -28,8 +28,10 @@ const Home: React.FC<HomeProps> = ({ setCurrentPage }) => {
       const mockNotices: Notice[] = [
         {
           id: 1,
-          title: 'NOTICE PAGE ADDED',
-          content: 'Check it by clicking Notice above',
+          title: 'NOTICE',
+          content: 'We are thriled to introduce our website to you all we shall be providing any new information through here ,Buying product through this website is yet not integrated we request you all to visit us in our store any further notice will be delivered here after
+            
+सबैलाई हार्दिक स्वागत छ',
           date: '2024-06-01',
         },
       ];
