@@ -6,15 +6,15 @@ import { Notice } from '../types';
 const sampleNotices: Notice[] = [
   {
     id: 1,
-    title: "New Textbooks Arrival",
-    content: "We have received the latest edition of textbooks for the upcoming academic year. Visit our store to check them out!",
-    date: "2024-03-15"
+    title: "IT'S DEPLOYED",
+    content:"We have successfully designed, developed, and deployed this website for our valued customers.",
+    date: "2024-10-22"
   },
   {
-    id: 2,
-    title: "Special Discount on Art Supplies",
-    content: "Get 20% off on all art supplies this week. Perfect opportunity for students and artists to stock up!",
-    date: "2024-03-20"
+   // id: 2,
+   // title: "#",
+   // content: "#",
+   // date: "#"
   }
 ];
 
