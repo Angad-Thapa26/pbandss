@@ -80,6 +80,7 @@ const Home: React.FC<HomeProps> = ({ setCurrentPage }) => {
             <Book className="text-yellow-400 w-12 h-12 mb-4" />
             <h2 className="text-2xl font-semibold mb-2">Wide Selection</h2>
             <p>Explore our vast collection of books across all genres.</p>
+               <p><a style="font-size: 20px; font-family: nepali";> टेस्ट </a></p> 
           </div>
           <div className="bg-white bg-opacity-20 backdrop-filter backdrop-blur-lg rounded-lg p-6 animate-fade-in" style={{ animationDelay: '0.2s' }} >
             <Pencil className="text-yellow-400 w-12 h-12 mb-4" />
