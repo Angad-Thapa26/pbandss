@@ -16,7 +16,7 @@ const sampleProducts: Product[] = [
     id: 2,
     name: "Premium Notebook Set",
     price: 500,
-    image: "https://images.unsplash.com/photo-1517842645767-c639042777db?ixlib=rb-1.2.1&auto=format&fit=crop&w=300&q=80",
+    image: "https://katib.pk/cdn/shop/files/casio_FX_991ES_Plus_1024x1024.jpg?v=1702988968",
     description: "High-quality notebooks with smooth paper, perfect for journaling or note-taking.",
     category: "Stationery"
   },
@@ -98,6 +98,7 @@ const ProductCatalog: React.FC = () => {
   return (
     <div className="space-y-8">
       <h1 className="text-3xl font-bold">Product Catalog</h1>
+      <p>All product listed here are to test the operation and the webpage and images copyright belongs to their author we shall not aquire any of those rights.This is for education purpose</p>
 
       <div className="flex space-x-4 mb-4">
         <div className="flex-grow">
