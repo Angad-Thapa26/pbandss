@@ -29,7 +29,7 @@ const Home: React.FC<HomeProps> = ({ setCurrentPage }) => {
         {
           id: 1,
           title: 'NOTICE',
-          content: 'We are thriled to introduce our website to you all we shall be providing any new information through here ,Buying product through this website is yet not integrated we request you all to visit us in our store any further notice will be delivered here after',
+          content: 'hi',
           date: '2024-06-01',
         },
       ];
