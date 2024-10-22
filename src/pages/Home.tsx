@@ -125,7 +125,8 @@ const Home: React.FC<HomeProps> = ({ setCurrentPage }) => {
                 <h3 className="text-xl font-semibold mb-2">Usla diyako umer</h3>
                 <p className="text-gray-200 mb-2">by Buddhisagar</p>
                 <p className="text-yellow-300 font-bold mb-2">2</p>
-                <button className="bg-yellow-400 text-blue-900 px-4 py-2 rounded-full hover:bg-yellow-300 transition duration-300 font-semibold">
+                <button  onClick={() => setCurrentPage('ProductCatalog')} 
+                  className="bg-yellow-400 text-blue-900 px-4 py-2 rounded-full hover:bg-yellow-300 transition duration-300 font-semibold">
                   About the book
                 </button>
               </div>
