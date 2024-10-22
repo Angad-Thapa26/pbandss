@@ -19,21 +19,21 @@ const Contact: React.FC = () => {
             <Phone size={24} className="text-blue-500" />
             <div>
               <h3 className="font-semibold">Phone</h3>
-              <p className="text-gray-600">+977 1234567890</p>
+              <p className="text-gray-600">065560932</p>
             </div>
           </div>
           <div className="flex items-center space-x-4">
             <Mail size={24} className="text-blue-500" />
             <div>
               <h3 className="font-semibold">Email</h3>
-              <p className="text-gray-600">info@pratapbooks.com</p>
+              <p className="text-gray-600">pratapbooks000@gmail.com</p>
             </div>
           </div>
           <div className="flex items-center space-x-4">
             <MessageSquare size={24} className="text-blue-500" />
             <div>
               <h3 className="font-semibold">WhatsApp</h3>
-              <p className="text-gray-600">+977 9800000000</p>
+              <p className="text-gray-600">+977 9846055278</p>
             </div>
           </div>
         </div>
@@ -102,7 +102,7 @@ const Contact: React.FC = () => {
             <p className="text-gray-600">10:00 AM - 5:00 PM</p>
           </div>
           <div>
-            <h3 className="font-semibold">click</h3>
+            <h3 className="font-semibold"></h3>
             <a href="./pages/Notices"></a>
           </div>
         </div>
