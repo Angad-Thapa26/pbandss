@@ -29,8 +29,7 @@ const Home: React.FC<HomeProps> = ({ setCurrentPage }) => {
         {
           id: 1,
           title: 'NOTICE',
-          content: 'We are thriled to introduce our website to you all we shall be providing any new information through here ,Buying product through this website is yet not integrated we request you all to visit us in our store any further notice will be delivered here after
-            सबैलाई हार्दिक स्वागत छ',
+          content: 'We are thriled to introduce our website to you all we shall be providing any new information through here ,Buying product through this website is yet not integrated we request you all to visit us in our store any further notice will be delivered here after',
           date: '2024-06-01',
         },
       ];
@@ -127,8 +126,8 @@ const Home: React.FC<HomeProps> = ({ setCurrentPage }) => {
                 className="w-32 h-48 object-cover rounded-lg mr-4"
               />
               <div className="bow-12">
-                <h3 className="text-xl font-semibold mb-2">उसले दिएको उमेर</h3>
-                <p className="text-gray-200 mb-2">by बुद्धिसागर</p>
+                <h3 className="text-xl font-semibold mb-2">Usla diyako umer</h3>
+                <p className="text-gray-200 mb-2">by Buddhisagar</p>
                 <p className="text-yellow-300 font-bold mb-2">2</p>
                 <button className="bg-yellow-400 text-blue-900 px-4 py-2 rounded-full hover:bg-yellow-300 transition duration-300 font-semibold">
                   About the book
