@@ -32,7 +32,7 @@ const Home: React.FC<HomeProps> = ({ setCurrentPage }) => {
         {
           id: 1,
           title: 'NOTICE',
-          content: 'hi',
+          content: 'This website is in its final stage of Designing, Development and Deployment ,Thanks ',
           date: '2024-06-01',
         },
       ];
