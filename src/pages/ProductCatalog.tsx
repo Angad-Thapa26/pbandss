@@ -98,7 +98,7 @@ const ProductCatalog: React.FC = () => {
   return (
     <div className="space-y-8">
       <h1 className="text-3xl font-bold">Product Catalog</h1>
-      <p>All product listed here are to test the operation and the webpage and images copyright belongs to their author we shall not aquire any of those rights.This is for education purpose</p>
+      <p>All product listed here are for testing </p>
 
       <div className="flex space-x-4 mb-4">
         <div className="flex-grow">
