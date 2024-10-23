@@ -28,8 +28,8 @@ const Home: React.FC<HomeProps> = ({ setCurrentPage }) => {
         {
           id: 1,
           title: 'NOTICE',
-          content: 'This website is in its final stage of Designing, Development and Deployment ,Thanks ',
-          date: '2024-06-01',
+          content: 'This website is live ,Welcome ',
+          date: '2024-10-23',
         },
       ];
       if (mockNotices.length > 0) {
@@ -98,7 +98,7 @@ const Home: React.FC<HomeProps> = ({ setCurrentPage }) => {
             <input
               type="text"
               value={searchTerm}
-              onChange={(e) => setSearchTerm(e.target.value)}
+              onChange={(e) => setCurrentPage('productCatalog')} 
               placeholder="Search for books, stationery, and more..."
               className="flex-grow p-3 rounded-l-lg text-gray-800 focus:outline-none"
             />
@@ -125,7 +125,7 @@ const Home: React.FC<HomeProps> = ({ setCurrentPage }) => {
                 <h3 className="text-xl font-semibold mb-2">Usla diyako umer</h3>
                 <p className="text-gray-200 mb-2">by Buddhisagar</p>
                 <p className="text-yellow-300 font-bold mb-2"></p>
-                <button  onClick={() => setCurrentPage('product')} 
+                <button  onClick={() => setCurrentPage('productCatalog')} 
                   className="bg-yellow-400 text-blue-900 px-4 py-2 rounded-full hover:bg-yellow-300 transition duration-300 font-semibold">
                   About the book
                 </button>
@@ -133,28 +133,7 @@ const Home: React.FC<HomeProps> = ({ setCurrentPage }) => {
             </div>
           </section>
 
-          <section className="bg-white bg-opacity-20 backdrop-filter backdrop-blur-lg rounded-lg p-6">
-            <h2 className="text-3xl font-semibold mb-4 text-center">
-              Latest Notice
-            </h2>
-            {latestNotice ? (
-              <div className="bg-white bg-opacity-30 rounded-lg p-4 shadow-md">
-                <div className="flex items-center mb-2">
-                  <Bell className="text-yellow-300 mr-2" size={24} />
-                  <h3 className="text-xl font-semibold text-yellow-300">
-                    {latestNotice.title}
-                  </h3>
-                </div>
-                <p className="text-gray-100 mb-2">{latestNotice.content}</p>
-                <p className="text-right text-gray-200 text-sm">
-                  Posted on: {new Date(latestNotice.date).toLocaleDateString()}
-                </p>
-              </div>
-            ) : (
-              <p className="text-gray-200">No notices at the moment.</p>
-            )}
-          </section>
-
+        
           <section className="bg-white bg-opacity-20 backdrop-filter backdrop-blur-lg rounded-lg p-6">
             <h2 className="text-3xl font-semibold mb-4 text-center">
               Special Offers
