@@ -133,7 +133,27 @@ const Home: React.FC<HomeProps> = ({ setCurrentPage }) => {
             </div>
           </section>
 
-        
+        <section className="bg-white bg-opacity-20 backdrop-filter backdrop-blur-lg rounded-lg p-6">
+<h2 className="text-3xl font-semibold mb-4 text-center">
+Latest Notice
+</h2>
+{latestNotice ? (
+<div className="bg-white bg-opacity-30 rounded-lg p-4 shadow-md">
+<div className="flex items-center mb-2">
+<Bell className="text-yellow-300 mr-2" size={24} />
+<h3 className="text-xl font-semibold text-yellow-300">
+{latestNotice.title}
+</h3>
+</div>
+<p className="text-gray-100 mb-2">{latestNotice.content}</p>
+<p className="text-right text-gray-200 text-sm">
+Posted on: {new Date(latestNotice.date).toLocaleDateString()}
+</p>
+</div>
+) : (
+<p className="text-gray-200">No notices at the moment.</p>
+)}
+</section>
           <section className="bg-white bg-opacity-20 backdrop-filter backdrop-blur-lg rounded-lg p-6">
             <h2 className="text-3xl font-semibold mb-4 text-center">
               Special Offers
