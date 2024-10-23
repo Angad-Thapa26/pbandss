@@ -98,7 +98,7 @@ const Home: React.FC<HomeProps> = ({ setCurrentPage }) => {
             <input
               type="text"
               value={searchTerm}
-              onChange={(e) => setCurrentPage('productCatalog')} 
+              onChange={(e) => setSearchTerm(e.target.value)}
               placeholder="Search for books, stationery, and more..."
               className="flex-grow p-3 rounded-l-lg text-gray-800 focus:outline-none"
             />
