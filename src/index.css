@@ -1,7 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&display=swap');
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
 
+:root {
+  font-family: 'Mukta', sans-serif;
+}
+
+.nepali-text {
+  font-family: 'Mukta', sans-serif;
+}
 @keyframes fadeIn {
   from {
     opacity: 0;
